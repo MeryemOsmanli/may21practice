@@ -1,0 +1,99 @@
+.education_background{
+    background-image: url("https://preview.colorlib.com/theme/course/images/slider_background.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    div{
+        color: white;
+        font-size: 30px;
+        span{
+            background-color: #ffb606;
+        }
+    }
+}
+.fetch_sec_background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    .fetch_sec_contain{
+        width: 60%;
+        padding: 2rem;
+        // height: 80vh;
+        background-color: peachpuff;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+       
+        .fetch_sec_box{
+            width:28%;
+            // height: 400px;
+            // background-color: red;
+            border: 1px solid black;
+            display: flex;
+            // align-items: center;
+            // justify-content: center;
+            flex-direction: column;
+            .fetch_image{
+                width:100%;
+                height: 200px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+            }
+         .fetch_text{
+            width: 100%;
+            // height: 70px;
+            // background-color: firebrick;
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            h5{
+                font-size: 20px;
+                padding: 0.5rem 0;
+            }
+            p{
+            color: #a5a5a5;
+            font-size: 13px;
+            }
+         }
+         .fetch_price{
+            display: flex;
+            height: 50px;
+            background-color: white;
+            .fetch_price_left{
+                padding: 1rem;
+                width: 80%;
+                
+                background-color: #a5a5a5;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 14px;
+
+            }
+            .fetch_price_right{
+                width: 20%;
+                background-color: #ffb606;
+                display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 23px;
+
+            }
+         }
+        }
+    }
+}
